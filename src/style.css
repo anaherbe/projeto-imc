@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 120px;
+    overflow: hidden;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    min-height: 335px;
+    text-align: left;
+    transform: translateY(-15px);
+    max-height: 95vh;
+    overflow-y: auto;
+}
+
+h1 {
+    margin: 0 0 25px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+input::placeholder {
+    color: #75787c;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+button {
+    background-color: #4272DE;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21.5px;
+    width: 100%;
+    transition: background-color 0.2s;
+    letter-spacing: 0.25px;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+.resultado {
+    margin-top: 18px;
+    text-align: left;
+}
+
+.resultado h2 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#imc-valor, #imc-classificacao {
+    font-size: 19px;
+    margin: 6px 0;
+}
+
+#imc-valor {
+    font-weight: 500;
+}
